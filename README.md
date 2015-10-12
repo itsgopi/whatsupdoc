@@ -14,6 +14,7 @@ Technical details
 5. Static content are stored in the each instance's storage (EBS)
 6. Dynamic content are stored in S3 bucket (user-upload) and in RDS mysql database; 
 
+Note : Architecture Diagram is available in doc folder 
 
 Work Flow
 ----------
