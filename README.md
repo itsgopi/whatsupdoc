@@ -61,7 +61,10 @@ I have chosen NGNIX as Webserver and Wordpress as CMS.
 
 13. verify if accessing ELB's public dns url reaches the webpages
 
-14. Run load balance traffic testing (curl-loader) and check the cloudwatch metrics to see if both webserver instances are load shared
+14. Run load balance traffic testing (curl-loader) on any linux based machine. 
+    Update the URL in the conf file before running.   
+	Check the cloudwatch metrics to see if both webserver instances are load shared
+	
      ./curl-loader -f bulk.conf
 
 
